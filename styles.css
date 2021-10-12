@@ -1,0 +1,49 @@
+.animals {
+    font-family: 'Crimson Pro', serif;
+    font-size: 30px;
+    text-align: center;
+    border: black double 5px;
+    background-color: #005780;
+}
+
+.intro {
+    display: block;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+.questions {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    color: White;
+}
+
+.result {
+    font-family: 'Crimson Pro', serif;
+    color: white;
+}
+
+.dogs {
+    width: 400px;
+    display: none;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+
+
+
+
+body {
+    background-image: url("https://i.pinimg.com/originals/04/0a/0a/040a0a1a7e8a124c9fbfc76914272c06.png");
+    text-align: center;
+    font-size: 20px;
+    font-family: roboto;
+    color: #D45E04;
+}
