@@ -40,5 +40,7 @@ $("button").click(function() {
         $(".result").text("Since you " + interests + " on the weekends and your usual mood is " + moods + ", you are a Shiba Inu!");
         $(".dogs").attr("src", "https://i.pinimg.com/originals/74/21/bd/7421bd2ca92f6f0139d0bbd38d1c22fb.gif");
         $(".dogs").show();
+    } else { 
+    	 $(".result").text("Please make sure all the capitalizations are the same <br> Ex: \"Party, Cheerful\", or \" party, cheerful\"");
     }
 });
